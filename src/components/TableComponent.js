@@ -78,7 +78,7 @@ const TableComponent = ()=> {
                     </Table.Row>
                 </Table.Header>
                 <Table.Body>
-                    {createBody(store)}
+                    {createBody(current)}
                 </Table.Body>
             </Table>
         </>
